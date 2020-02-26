@@ -9,9 +9,6 @@ public void draw(){
   background(0,0,0);
   el(500,500,r);
   r+=50;
-  if(r>8000){
-    r=1500;
-  }
 }
 public void el(float x,float y,float len){
   noFill();
